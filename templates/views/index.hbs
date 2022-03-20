@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark"></i>Currículo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-envelope"></i>Contato</a>
+                <a class="nav-link" href="#contato"><i class="bi bi-envelope"></i>Contato</a>
             </li>
             </ul>
         </nav>
@@ -53,7 +53,7 @@
             <div class="row w-100">
                 <div class="col-md-12">
                     <h2 class="pt-3">Sobre</h2>
-                    <p> 
+                    <p class="pt-3"> 
                         Olá, Meu nome é Fabricio Barreto Nogueira, nascido em Ceilândia-DF, atualmente, faço graduação em Engenharia da Computação na UnB (Universidade de Brasília)
                         porém antes de descobrir a minha paixão por computação e tudo que está relacionado a isso, eu estava fazendo uma graduação em Química Tecnológica também na UnB.
                         Sempre fui uma pessoa que gosta de tecnologia e um dia percebi que devia entrar para a área, desde então, comecei meus estudos em programação, primeiramente em C e Python,
@@ -238,10 +238,61 @@
             <div class="curriculo">
                 <h3>Currículo</h3>
 
-                <embed src="img/curriculo.pdf" type="application/pdf" width="100%" height="100%">
+                <embed src="img/curriculo.pdf" type="application/pdf" width="100%" height="100%" class="pt-5">
             </div>
         </section>
 
+        <section class="pt- 5 pb-5" id="contato"> 
+
+            <div class="container mb-5">
+                <h2 class="pt-3 pb-3">Contato</h2>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i>   Localização:</h4>
+                                <p>Ceilândia, Distrito Federal</p>
+                            </div>
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i>   Email:</h4>
+                                <p>fabriciobarrr@gmail.com</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3227.9861809871113!2d-48.10173785681517!3d-15.81743992799093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1647796814293!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="w-100"></iframe>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card pt-5 h-100 shadow border-0">
+
+                            <form class="row g-3 p-3 contact-form" id="contactForm">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" name="nome">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea type="text" class="form-control" id="mensagem" placeholder="Digite sua mensagem!" name="mensagem" rows="10"> </textarea> 
+                                </div>
+                                
+                                <div class="col-12 d-flex justify-content-center mt-3">
+                                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
     
