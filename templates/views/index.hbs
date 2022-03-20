@@ -20,16 +20,13 @@
                 <a class="nav-link active" href="#"><i class="bi bi-house"></i>Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-person"></i>Sobre</a>
+                <a class="nav-link" href="#sobre"><i class="bi bi-person"></i>Sobre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Habilidades</a>
+                <a class="nav-link" href="#portfolio"><i class="bi bi-collection"></i>Portfólio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i>Currículo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-collection"></i>Portfólio</a>
+                <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark"></i>Currículo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="bi bi-envelope"></i>Contato</a>
@@ -47,13 +44,207 @@
             </div>
 
             <div class="col-md-7 d-flex justify-content-end align-items-end" id="arraste">
-                <a href="" class="text-white text-shadow"><i class="bi bi-arrow-down text-white"></i>Arraste para mais</a>
+                <a href="#sobre" class="text-white text-shadow"><i class="bi bi-arrow-down text-white"></i>Arraste para mais</a>
             </div>
         </section>
+
+        <section class="container mt-5" id="sobre">
+
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p> 
+                        Olá, Meu nome é Fabricio Barreto Nogueira, nascido em Ceilândia-DF, atualmente, faço graduação em Engenharia da Computação na UnB (Universidade de Brasília)
+                        porém antes de descobrir a minha paixão por computação e tudo que está relacionado a isso, eu estava fazendo uma graduação em Química Tecnológica também na UnB.
+                        Sempre fui uma pessoa que gosta de tecnologia e um dia percebi que devia entrar para a área, desde então, comecei meus estudos em programação, primeiramente em C e Python,
+                        passei um pouco por C#, PhP e hoje estou bastante empenhado em estudar Java, JavaScript, Html e CSS.
+                    </p>
+                    <p>
+                        Quando não estou programando, estudando ou trabalhando, gosto de jogar rpg de mesa, alguns jogos eletrônicos, sair com meus amigos, entre outras coisas.
+                        Meu apelido é Plancto e a ideia veio de um livro de biologia quando estava estudando para uma prova no Ensino Médio, desde então, passei a usa-lo e na maioria das vezes
+                        , principalmente em ambiente virtual, meus amigos me chamam assim.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid shadow" src="img/eu02.jpg" alt="Foto do Fabricio">
+                </div>
+                <div class="col-md-8 mt-3">
+                    <h3>Estágiario e Desenvolvedor</h3>
+                    <p>
+                        Atualmente estou Estagiando em um empresa de licitação de computadores, terminando minha graduação e estudante as linguagens que citei a cima, alguns framework
+                        como proveniente do nodejs, API's, implementações com banco de dados SQL e noSQL.
+                    </p>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Aniversário: <span class="fw-lighter">12 de Junho</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">27 Anos</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">Ceilândia</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">Distrito Federal</span> 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter">Programar</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter">RPG de Mesa</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter">Jogar</span> 
+                                </li>
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter">Aprender coisas novas</span> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="container mt-5" id="portfolio">
+            <div class="pb-5 pt-5">
+                <h2 class="pb-4">Portfólio</h2>
+
+                <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/projeto01.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Platform Game</h5>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Fabricio-Barreto/PrimeiroJogo2DPlataforma" target="_blank" class="btn btn-outline-dark me-3">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/projeto02.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Weather App </h5>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Fabricio-Barreto/weather-app" target="_blank" class="btn btn-outline-dark me-3">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="https://plancto-weather-application.herokuapp.com/" target="_blank" class="btn btn-outline-primary">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/projeto03.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Runner Game</h5>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Fabricio-Barreto/Runner-Game" target="_blank" class="btn btn-outline-dark me-3">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/projeto04.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">To do List</h5>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Fabricio-Barreto/To-do-list-nodejs" target="_blank" class="btn btn-outline-dark me-3">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="https://todolist-plancto.herokuapp.com/" target="_blank" class="btn btn-outline-primary">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/projeto05.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Project Zombie Game</h5>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Fabricio-Barreto/Project-Zombie-Game" target="_blank" class="btn btn-outline-dark me-3">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/comingsoon.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Coming Soon</h5>
+                                            <div class="d-flex justify-content-center">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container mt-5" id="curriculo">
+            <div class="curriculo">
+                <h3>Currículo</h3>
+
+                <embed src="img/curriculo.pdf" type="application/pdf" width="100%" height="100%">
+            </div>
+        </section>
+
 
     </main>
     
 
 {{>footer}}
 
-    
