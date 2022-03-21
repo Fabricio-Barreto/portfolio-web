@@ -2,6 +2,7 @@ const menuMobile = document.querySelector('.menu-mobile')
 const body = document.querySelector('body')
 const navItem = document.querySelectorAll('.nav-item')
 const contactForm = document.querySelector('#contactForm')
+const item = document.querySelectorAll("[data-anime]")
 
 let nome = document.getElementById('nome')
 let email = document.getElementById('email')
@@ -21,6 +22,25 @@ navItem.forEach(item => {
         }
     })
 })
+
+// animation
+
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.85
+    
+    item.forEach(element => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add("animate")
+        } else {
+            element.classList.remove("animate")
+        }
+    })
+}
+
+window.addEventListener("scroll", () => {
+    animeScroll()
+})
+
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault()
